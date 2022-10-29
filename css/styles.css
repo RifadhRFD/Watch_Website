@@ -1,0 +1,239 @@
+body{
+    font:15px/1.5 Arial,Helvetica,Sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #F2F4F3;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.clear{
+    float: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #F2F4F3;
+    color: #000;
+    min-height: 70px;
+    padding-top: 30px;
+    border-bottom: #183738 solid 4px;
+}
+
+header #brand {
+    float: left;
+}
+
+header #brand h1{
+    font-size: 2.5em;
+    margin: 0;
+    
+}
+
+header .highlights,.current{
+    font-weight: bold;
+    color: rgb(80, 141, 138);
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 15px;
+}
+
+nav li{
+    display: inline;
+    float: left;
+    padding: 0 20px 0 20px;
+}
+
+nav a:hover{
+    color: #18c7be;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+    /* main section */
+#main{
+    min-height: 400px;
+    padding: 100px 0px 100px 40px;
+    background: url('../images/time.jpg') ;
+    background-size: cover;
+    color: #fff;
+}
+
+#main h1{
+    font-size: 55px;
+    margin: 100px 0 10px 0;
+}
+
+#main p{
+    min-width: 75px;
+    font-size: 25px;
+    color:#fff;
+    font-weight: bold;
+    
+}
+
+    /*newsletter */
+#newsletter{
+    padding: 30px;
+    background-color: #284149b6;
+    color: #fff;
+}
+#newsletter h3{
+    float: left;
+    margin-left: 75px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn_sub{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    background: #183738;
+    font-weight: bold;
+    height: 38px;
+    border: none;
+    padding: 0 20px 0 20px;
+    color: #fff;
+}
+
+    /*section watch*/
+#watch{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#one,#three{
+    width: 165px;
+}
+
+#two{
+    margin-top: 10.5px;
+    width: 135px;
+}
+
+.head-watch{
+    color: #514e58;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.info-watch{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #044075;
+}
+ /*about-us page*/
+ .head{
+    font-size: 1.9em;
+    color: #189ec7;
+ }
+.sub-head{
+    font-size: 1.5em;
+    color: rgb(134, 14, 14);
+}
+
+.info-about{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    color:#1c8386;
+}
+
+#newsletter-about{
+    width: 100%;
+    padding: 30px;
+    background-color: #284149b6;
+    color: #fff;
+}
+
+ #founder{
+    margin-top: 40px;
+    background: url("");
+}
+
+.box-a{
+    float: left;
+    text-align: center;
+    width: 45%;
+    padding: 10px;
+}
+
+ footer{
+    border-top: #183738 solid 3px;
+    text-align: center;
+}
+
+footer h4{
+    font-size: 15px;
+}
+
+footer #footer-text{
+    margin-top: -30px;
+    padding: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media(max-width: 768px){
+    header #brand,header nav,header nav li,
+    #newsletter h1, #newsletter form,
+    #watch .box{
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    #newsletter h3{
+        text-align: center;
+        padding-left: 10px;;
+    }
+    #news{
+        display: none;
+    }
+    .founder-name{
+        text-align: center;
+        justify-content: center;
+    }
+    .btn_sub{
+        margin-top: 5px;
+    }
+
+}
